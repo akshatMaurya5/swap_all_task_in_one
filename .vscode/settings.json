@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "package-lock.json": true,
+        "package.json": true,
+        "node_modules": true,
+        ".vscode": true,
+        "formatTokenPrice.js": true,
+        "applicationKey.json": true,
+        ".env": true,
+        "applicationKeyAlt.json": true
+    },
+    "hide-files.files": [
+        "package-lock.json",
+        "package.json",
+        "node_modules",
+        ".vscode",
+        "formatTokenPrice.js",
+        "applicationKey.json",
+        ".env",
+        "applicationKeyAlt.json"
+    ]
+}

@@ -10,10 +10,10 @@ const bigquery = new BigQuery({
 async function runQuery(tokenAddress) {
     try {
         let name = await getTokenName(tokenAddress);
-        log(name, "in runquery function");
+        // log(name, "in runquery function");
 
         const query = `
-        -- Define CTEs
+        
         WITH token_data AS (
             SELECT 
                 transaction_hash,
@@ -100,5 +100,4 @@ async function runQuery(tokenAddress) {
     }
 }
 
-// runQuery("0xe5c6f5fef89b64f36bfccb063962820136bac42f");
 module.exports = { runQuery }
